@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <button class="btn" onclick="dropMenu()">
+            <i class="fas fa-bars icon"></i>
+        </button>
+        <div class="nav">
+            <ul class="nav-ul">
+                <li class="nav-li">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-li nav-li-dropdown">
+                    <a class="nav-link nav-link-drop" href="#">Products 
+                        <i class="fas fa-angle-double-down arrow"></i>
+                    </a>
+                    <div class="menu-dropdown">
+                        <a class="item-dropdown" href="#">Prod 1</a>
+                        <a class="item-dropdown" href="#">Prod 2</a>
+                        <a class="item-dropdown" href="#">Prod 3</a>
+                    </div>
+                </li>
+                <li class="nav-li">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-li nav-li-dropdown">
+                    <a class="nav-link nav-link-drop" href="#">Team 
+                        <i class="fas fa-angle-double-down arrow"></i>
+                    </a>
+                    <div class="menu-dropdown">
+                        <a class="item-dropdown" href="#">Adam</a>
+                        <a class="item-dropdown" href="#">Anne</a>
+                    </div>
+                </li>
+                <li class="nav-li">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-li">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-li">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <script src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
